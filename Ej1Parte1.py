@@ -1,0 +1,20 @@
+#Mostrar en pantalla información básica
+print("Empezando a trabajar con python")
+print("Realizado por Diana Vaca")
+print("Consultado los tipos de valores: ")
+#Especificar el tipo de  dato
+print("El tipo de dato de 875 es: ")
+print(type(875))
+print("El tipo de dato de 4.89 es: ")
+print(type(4.89))
+print("El tipo de dato del texto: Now is better than never. es:")
+print(type("Now is better than never."))
+print("El tipo de dato de 1.32 es:")
+print(type(1.32))
+#Especificar si el valor corresponde a un deeterminado tipo de dato
+print("¿El valor 5 + 8i corresponde a un valor entero?")
+print(isinstance( 5 + 8j, int))
+print("¿El valor 8.2 corresponde a un valor entero?")
+print(isinstance( 8.2, int))
+print("¿El texto: Readability counts. corresponde a un string?")
+print(isinstance( "Readability counts.", str))
